@@ -1,6 +1,11 @@
-先用WGC_en，把hg3批量转换为png（setting里选PNG，所有勾去掉，点convert all）
+新建一个叫hg3的文件夹，把hg3都丢进去
 
-接着用hg3_offgen，生成对应hg3的ps图层文件夹，python hg3_offgen.py <hg3文件夹>
+先用WGC_en，把hg3批量转换为png
+①setting里选PNG，所有勾去掉，
+②点击output directry，选择第一个，打勾create foler。
+③点convert all
+
+接着用hg3_offgen，生成对应hg3的ps图层文件夹，python hg3_offgen.py hg3
 
 打开ps，文件-脚本-将脚本载入堆栈，浏览选择文件夹内所有图片，点确定
 
